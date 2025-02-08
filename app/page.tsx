@@ -22,7 +22,7 @@ function HeroSection() {
     <section className="relative bg-[#F2F0FF] py-10 md:py-20 px-5 md:px-20 flex flex-col md:flex-row items-center justify-between overflow-hidden">
       <div className="md:w-1/4 flex justify-center items-start relative">
         <div className="absolute top-[-250px] left-[-20px] z-10">
-          <Image src="/light.png" alt="Lamp" width={300} height={300} className="object-contain" />
+          <Image src="/img/furn/light.png" alt="Lamp" width={300} height={300} className="object-contain" />
         </div>
       </div>
       <div className="md:w-1/3 max-w-lg left-0 text-center md:text-left flex flex-col justify-center">
@@ -39,7 +39,7 @@ function HeroSection() {
       </div>
       <div className="md:w-1/3 flex justify-center items-center relative">
         <div className="relative bg-[#ECD2FA59] rounded-full p-8 shadow-xl mt-10 mx-auto">
-          <Image src="/banner3.png" alt="Banner Chair" width={500} height={500} className="object-contain w-full h-auto" />
+          <Image src="/img/chair/banner3.png" alt="Banner Chair" width={500} height={500} className="object-contain w-full h-auto" />
         </div>
         <div className="absolute family top-8 right-5 w-[100px] h-[100px] bg-[#00C1FE] text-[#fff] text-[20px] font-semibold flex items-center justify-center rounded-full shadow-md">
           <span>50% <br/>off</span>
@@ -57,7 +57,7 @@ function FeaturedProducts() {
         {[1, 2, 3, 4].map((i) => (
           <div key={i} className="relative bg-[#ffffff] shadow-md rounded-md overflow-hidden transform transition-transform duration-300 hover:scale-105">
             <div className="bg-[#F6F7FB] w-[270] h-[236px] flex justify-center items-center relative">
-              <Image src={`/featuredpr${i}.png`} alt={`Featured Product ${i}`} width={130} height={150} className="object-contain" />
+              <Image src={`/img/featured/featuredpr${i}.png`} alt={`Featured Product ${i}`} width={130} height={150} className="object-contain" />
             </div>
             <div className="p-4">
               <h3 className="text-lg font-bold text-[#fb2e86] mb-2">Cantilever Chair</h3>
